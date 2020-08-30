@@ -1,0 +1,29 @@
+{
+  "name": "coconut-backend",
+  "version": "1.0.0",
+  "description": "The backend for the coconut trip management app",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aneeshsharma/Coconut-Backend.git"
+  },
+  "keywords": [
+    "upi",
+    "payments",
+    "management"
+  ],
+  "author": "Anish Sharma, Anandu B Abhijit",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/aneeshsharma/Coconut-Backend/issues"
+  },
+  "homepage": "https://github.com/aneeshsharma/Coconut-Backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.2",
+    "nodemon": "^2.0.4"
+  }
+}
